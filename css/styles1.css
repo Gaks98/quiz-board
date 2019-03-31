@@ -52,3 +52,15 @@ body{
 .btn:hover{
     transform: translateX(0);
 }
+#pic{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin-left: 26%;
+    margin-right:26%;
+
+}
+#pic img{
+    border-radius: 100px;
+
+}
