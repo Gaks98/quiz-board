@@ -2,74 +2,92 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles2.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-            <script src="js/sweetAlert.js"></script>
-            <script src="js/countdown.js"></script>
+    <link rel="stylesheet" href="css/styles1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script2.js"></script>
 
-    <title>Login Page</title>
+    <title>QUIZ-BOARD</title>
   </head>
   <body>
+    <div class=" container-fluid">
+            <div class="row">
+                <div class="col-sm-4"></div>
 
-    <div class="container">
-            <div class="center">
+                <div class="col-sm-4" id="center">
 
-                    <ul>
-                            <li>M</li>
-                            <li>O</li>
-                            <li>R</li>
-                            <li>I</li>
-                            <li>N</li>
-                            <li>G</li>
-                            <li>A</li>
+
+                        <div  id="pic" class="img-responsive">
+                                <img  src="https://bit.ly/2VcEn13">
+                            </div>
+
+
+                    <form name="test">
+                    <div class="form-group">
+                        <label for="Q1">
+                            Q1.Which of the following is a JavaScript library?
                             <br>
-                            <li>C</li>
-                            <li>L</li>
-                            <li>U</li>
-                            <li>B</li>
-                        </ul>
-
-                <h4>JavaScript Test Countdown</h4>
-                <div id="clock"></div>
-            </div>
-            <script type="text/javascript">
-            $("#clock").countdown("2019/5/1", function(event){
-        var $this = $(this).html(event.strftime(""
-        +"<div><span>%w</span><span><br>Weeks</span></div>"
-        +"<div><span>%d</span><span><br>Days</span></div>"
-        +"<div><span>%H</span><span><br>Hr</span></div>"
-        +"<div><span>%M</span><span><br>Min</span></div>"
-        +"<div><span>%S</span><span><br>Sec</span></div>"
-        ))
-    })
-            </script>
-
-            <div class="box">
-                        <h1>Login</h1>
-
-
-
-                        <div class="inputbox">
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                            <input type="text" placeholder="Name" id="name">
-                        </div>
-
-                        <div class="inputbox">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <input type="text" placeholder="Email" id="email" required>
-                        </div>
-
-
-                        <button class="btn btn-danger" onclick="validation()" id="btn1">Start Test</button>
-
-
+                            <input type="radio" name="q1" value="a">Bootstrap <br>
+                            <input type="radio" name="q1" value="b">css <br>
+                            <input type="radio" name="q1" value="c">jQuery <br>
+                        </label>
                     </div>
 
-        </div>
+                    <div class="form-group">
+                        <label for="Q2">
+                        Q2.JavaScript can both be back-end and front-end?
+                        <br>
+                        <input type="radio" name="q2" value="a">True<br>
+                        <input type="radio" name="q2" value="b">False <br>
+                    </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Q2">
+                        Q3.Pick a methods?
+                        <br>
+                        <input type="radio" name="q3" value="a">var a; <br>
+                        <input type="radio" name="q3" value="b">add(a,b) <br>
+                        <input type="radio" name="q3" value="c">return a; <br>
+                        <input type="radio" name="q3" value="d">parseInt()<br>
+                    </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Q3">
+                        Q4.<b>alert()</b> prompts a pop up box.
+                        <br>
+                        <input type="radio" name="q4" value="a">True<br>
+                        <input type="radio" name="q4" value="b">False <br>
+                    </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Q4">
+                        Q5.What is the DOM in full?
+                        <br>
+                        <input type="radio" name="q5" value="a">DOCTYPE Object Master<br>
+                        <input type="radio" name="q5" value="b">Desktop Operating Motherboard <br>
+                        <input type="radio" name="q5" value="c">Document Object Model<br>
+                    </label>
+                    </div>
+
+
+                    <input id="submit" type="button" value="Done!" onclick="check()" class="btn btn-success">
+                    <br>
+                    </form>
+                </div>
+
+                <div class="col-sm-4" id="col3">
+                    <div id="after_submit">
+                        <p id="message"></p>
+                        <p id="number_correct"></p>
+                        <img id="picture">
+                    </div>
+                </div>
+
+
+            </div>
 
   </body>
 </html>
