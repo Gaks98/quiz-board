@@ -7,7 +7,6 @@ function check(){
 
     var score = 0;
 
-
     if (q1== "c"){
         score++;
     }
@@ -23,3 +22,5 @@ function check(){
     if (q5== "c"){
         score++;
     }
+    var conversion = score/5 * 100;
+    score = conversion;
