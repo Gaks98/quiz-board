@@ -4,3 +4,7 @@ body{
     background: #060c21;
     font-family:  'Germania One', cursive;
 }
+.col-sm-4 img{
+    width: 100%;/*contains the img in its div*/
+    height: auto;
+}
