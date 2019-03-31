@@ -26,3 +26,13 @@ body{
     z-index: -1;
     background:linear-gradient(315deg,#e91e63,#5d02ff);
 }
+#center::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
