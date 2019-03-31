@@ -28,3 +28,27 @@ body{
       margin-bottom: 50px;
       padding: 13px 0;
   }
+  .inputbox i{
+width: 26px;
+float: left;
+text-align: center;
+}
+
+.inputbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom:1px solid #e91e63;
+}
+.inputbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
