@@ -36,3 +36,17 @@ body{
     background: rgba(255, 255, 255, 0.05);
     pointer-events: none;
 }
+.form-group{
+    position: relative;
+    padding: 5px;
+    transform: translateY(40px);
+}
+.btn{
+    position: relative;
+    margin: 20px 0 0 60px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: 0.5s;
+    transform: translateX(-40px);
+
+}
