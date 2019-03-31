@@ -5,7 +5,7 @@ This is a Quiz board website that asks users JavaScript questions and gives them
 Quiz Board is a web application that allows anyone to users to first fill in their credentials before accessing the JavaScript questions. The website has a count down that is set to show the dead line of the day and time the test trial will end. Before access to the test the user MUST fill both their names and email, failure to adhere to this leads to an error pop up message that alerts them on what they have done wrong. Else if they fill all the required input spaces they get a welcome pop up message that welcomes them and sends them to the next page which is the quiz page on clicking okay on the pop-up.
 
 # Setup/Installation Requirements
-No set up requirements or Installation needed to view this website. The site is fully run on its own originally set codes and links and does not depend on any other code to function. In case you want to use the codes you can clone it here:
+No set up requirements or Installation needed to view this website. The site is fully run on its own originally set codes and links and does not depend on any other code to function. In case you want to use the codes you can clone it here: https://github.com/Gaks98/quiz-board.git.
 
 # Known Bugs
 The website is not suitable for phones less than 200px of width cause that will be extra small. Not that they will not be able to view it but because it may not look as stunning as on other devices.
@@ -24,21 +24,21 @@ The website is not suitable for phones less than 200px of width cause that will 
 | Behaviour       | Input           | Output          |
 | :-------------: | :-------------: | :-------------: |
 | 5 correct       | score === 100   | Great job!      |
-|-----------------|-----------------|-----------------|
+|                 |                 |                 |
 | 4 correct       | score >= 80     |  aim higher     |
 |                 |       &&        |                 |
 |                 | score < 100     |                 |
-|-----------------|-----------------|-----------------|
+|                 |                 |                 |
 | 3 correct       | score >= 60     | fairly done     |
 |                 |      &&         |                 |
 |                 | score < 80      |                 |
-|-----------------|-----------------|-----------------|
+|                 |                 |                 |
 | 2 correct       | score >= 40     |  poorly done    |
 |                 |      &&         |                 |
 |                 | score < 60      |                 |
-|-----------------|-----------------|-----------------|
+|                 |                 |                 |
 | 1 or 0 correct  | score < 40      | Get serious     |
-|-----------------|-----------------|-----------------|
+|                 |                 |                 |
 
 ## How to run
 1. Make sure to input all fields in the login form. Take test before deadline of the countdown.
