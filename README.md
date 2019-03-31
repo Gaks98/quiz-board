@@ -1,5 +1,5 @@
 # Quiz Board
-This is a Quiz board website that asks users JavaScript questions and gives them a certain message regarding the action they have taken while going through the website. Created on the 22rd March 2019 By Yvonne Gakii Gitonga.
+This is a Quiz board website that asks users JavaScript questions, and gives them a certain message regarding the action they have taken while going through the website. Created on the 30th March 2019 By Yvonne Gakii Gitonga.
 
 # Description
 Quiz Board is a web application that allows anyone to users to first fill in their credentials before accessing the JavaScript questions. The website has a count down that is set to show the dead line of the day and time the test trial will end. Before access to the test the user MUST fill both their names and email, failure to adhere to this leads to an error pop up message that alerts them on what they have done wrong. Else if they fill all the required input spaces they get a welcome pop up message that welcomes them and sends them to the next page which is the quiz page on clicking okay on the pop-up.
@@ -43,6 +43,9 @@ The website is not suitable for phones less than 200px of width cause that will 
 ## How to run
 1. Make sure to input all fields in the login form. Take test before deadline of the countdown.
 2. After every action remember to click either the submit, okay or done button for you to see the output.
+
+# Live Site
+View my live site here:https://gaks98.github.io/quiz-board/
 
 # Support and contact details
 In case you run into some issues will trying to use this site feel free to reach me at yvonnegax98@gmail.com
