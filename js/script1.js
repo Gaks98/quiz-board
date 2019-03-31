@@ -44,3 +44,9 @@ function check() {
       if(score === 100 ){
           messageArray =0;
       }
+
+      document.getElementById("after_submit").style.visibility = "visible";
+    document.getElementById("message").innerHTML= message[messageArray];
+    document.getElementById("number_correct").innerHTML = "You got " + score + "% correct.";
+    document.getElementById("picture").src = picture[messageArray];
+}
