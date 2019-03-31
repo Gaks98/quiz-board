@@ -1,2 +1,11 @@
 @import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+body{
+    margin: 0;
+    padding: 0;
+  background-image: url("../img/bgpic2.jpg");
+  background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
