@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Germania+One');
+body{
+    color: aliceblue;
+    background: #060c21;
+    font-family:  'Germania One', cursive;
+}
