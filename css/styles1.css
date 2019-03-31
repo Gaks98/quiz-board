@@ -14,3 +14,15 @@ body{
     border: 2px solid #000;
     margin-top: 20px;
 }
+#center::before{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(2deg,2deg);
+    z-index: -1;
+    background:linear-gradient(315deg,#e91e63,#5d02ff);
+}
