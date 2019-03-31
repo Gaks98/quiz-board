@@ -48,5 +48,7 @@ body{
     display: inline-block;
     transition: 0.5s;
     transform: translateX(-40px);
-
+}
+.btn:hover{
+    transform: translateX(0);
 }
