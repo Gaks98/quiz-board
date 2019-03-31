@@ -58,9 +58,17 @@ body{
     padding: 5px;
     margin-left: 26%;
     margin-right:26%;
-
 }
 #pic img{
     border-radius: 100px;
-
+}
+#col3{
+    margin-top: 250px;
+}
+#col3 p{
+    font-size: 40px;
+    font-weight: 200;
+}
+#on-click{
+    visibility: hidden;
 }
