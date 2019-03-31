@@ -28,3 +28,19 @@ function check() {
   var message = ["Great job!", "aim higher", "fairly done", "poorly done", "Get serious"];
   var messageArray;
   var picture = ["img/great-job.gif", "img/keep-up.gif", "img/fairly-done.gif", "img/poorly-done.gif", "img/get-serious.gif"];
+
+  if(score < 40 ){
+          messageArray =4;
+      }
+      if(score >= 40 && score < 60){
+          messageArray =3;
+      }
+      if(score >= 60 && score < 80){
+          messageArray =2;
+      }
+      if( score >= 80 && score <100){
+          messageArray =1;
+      }
+      if(score === 100 ){
+          messageArray =0;
+      }
