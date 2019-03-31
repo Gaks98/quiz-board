@@ -36,7 +36,18 @@
                 <h4>JavaScript Test Countdown</h4>
                 <div id="clock"></div>
             </div>
-
+            <script type="text/javascript">
+            $("#clock").countdown("2019/5/1", function(event){
+        var $this = $(this).html(event.strftime(""
+        +"<div><span>%w</span><span><br>Weeks</span></div>"
+        +"<div><span>%d</span><span><br>Days</span></div>"
+        +"<div><span>%H</span><span><br>Hr</span></div>"
+        +"<div><span>%M</span><span><br>Min</span></div>"
+        +"<div><span>%S</span><span><br>Sec</span></div>"
+        ))
+    })
+            </script>
+            
         </div>
 
   </body>
